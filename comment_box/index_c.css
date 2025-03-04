@@ -62,6 +62,18 @@ ul{
     height: 3vw;
     align-items: end;
 }
+#caracteres{
+    position: relative;
+    left: 30%;
+    margin-bottom: 0.5%;
+}
+#usuario{
+    background-color: rgb(230, 186, 250);
+    position: relative;
+    right: 31%;
+    height: 30px;
+    margin-top: 2%;
+}
 
 #cajadecom{
     display: flex;
@@ -76,6 +88,8 @@ ul{
     align-items: center;
     background-color: hotpink;
     width: 65%;
+    border-radius: 10px;
+  
 } 
 
 .comentario{
@@ -84,16 +98,34 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     padding: 1%;
     margin: 0.4%;
+    word-wrap: break-word;
+    white-space: normal;
+    /* background-color: aqua; */
 }
 .fecha{
     margin: 2%;
 }
 .botonEliminar{
-  margin: 2%;
-    background-color: rgb(246, 77, 77);
+ margin: 2%;
+ background-color: rgb(246, 77, 77);
+ height: 10%;
     
 }
 
+#contador{
+    margin-left: 18%;
+    font-size: 130%;
+    color: slateblue;
+}
+
+.contenedor_com{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0.5%;
+}
